@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T02:56:07 IST" name="Suite" finished-at="2023-11-16T02:57:00 IST" duration-ms="52889">
+    <groups>
+      <group name="FunctionalTest">
+        <method signature="LoginTestSuite.LoginTestSuiteCloseBrowser()[pri:1, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteCloseBrowser" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+        <method signature="LoginTestSuite.LoginTestSuiteWithWrongCred()[pri:2, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteWithWrongCred" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+        <method signature="LoginTestSuite.LoginTestSuiteWithOnlyPassword()[pri:3, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteWithOnlyPassword" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+        <method signature="LoginTestSuite.LoginTestSuiteWithOnlyUsername()[pri:4, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteWithOnlyUsername" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+        <method signature="LoginTestSuite.LoginTestSuiteWithWrongUsername()[pri:5, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteWithWrongUsername" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+        <method signature="LoginTestSuite.LoginTestSuiteWithWrongPassword()[pri:6, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteWithWrongPassword" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+        <method signature="LoginTestSuite.LoginTestSuiteValidCred()[pri:7, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteValidCred" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+      </group> <!-- FunctionalTest -->
+      <group name="NonFunctionalTest">
+        <method signature="LoginTestSuite.LoginTestSuiteNonGrouped()[pri:0, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" name="LoginTestSuiteNonGrouped" class="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite"/>
+      </group> <!-- NonFunctionalTest -->
+    </groups>
+    <test started-at="2023-11-16T02:56:07 IST" name="Test" finished-at="2023-11-16T02:57:00 IST" duration-ms="52889">
+      <class name="FarisShaikh.DemoWebsiteAutomation.LoginTestSuite">
+        <test-method signature="LoginTestSuiteNonGrouped()[pri:0, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:07 IST" name="LoginTestSuiteNonGrouped" finished-at="2023-11-16T02:56:13 IST" duration-ms="6310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteNonGrouped -->
+        <test-method signature="LoginTestSuiteCloseBrowser()[pri:1, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:13 IST" name="LoginTestSuiteCloseBrowser" finished-at="2023-11-16T02:56:25 IST" duration-ms="12199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteCloseBrowser -->
+        <test-method signature="LoginTestSuiteWithWrongCred()[pri:2, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:25 IST" name="LoginTestSuiteWithWrongCred" finished-at="2023-11-16T02:56:31 IST" duration-ms="5952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteWithWrongCred -->
+        <test-method signature="LoginTestSuiteWithOnlyPassword()[pri:3, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:31 IST" name="LoginTestSuiteWithOnlyPassword" finished-at="2023-11-16T02:56:37 IST" duration-ms="5437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteWithOnlyPassword -->
+        <test-method signature="LoginTestSuiteWithOnlyUsername()[pri:4, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:37 IST" name="LoginTestSuiteWithOnlyUsername" finished-at="2023-11-16T02:56:44 IST" duration-ms="7571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteWithOnlyUsername -->
+        <test-method signature="LoginTestSuiteWithWrongUsername()[pri:5, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:44 IST" name="LoginTestSuiteWithWrongUsername" finished-at="2023-11-16T02:56:49 IST" duration-ms="5075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteWithWrongUsername -->
+        <test-method signature="LoginTestSuiteWithWrongPassword()[pri:6, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:49 IST" name="LoginTestSuiteWithWrongPassword" finished-at="2023-11-16T02:56:54 IST" duration-ms="5123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteWithWrongPassword -->
+        <test-method signature="LoginTestSuiteValidCred()[pri:7, instance:FarisShaikh.DemoWebsiteAutomation.LoginTestSuite@dd8ba08]" started-at="2023-11-16T02:56:54 IST" name="LoginTestSuiteValidCred" finished-at="2023-11-16T02:57:00 IST" duration-ms="5128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuiteValidCred -->
+      </class> <!-- FarisShaikh.DemoWebsiteAutomation.LoginTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
